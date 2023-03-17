@@ -25,8 +25,7 @@ const Home = () => {
           </div>
         </div>
         <div className="prompt-container">
-          <textarea placeholder="start typing here" className="prompt-box"   value={userInput}
-  onChange={onUserChangedText} />
+          <textarea placeholder="start typing here" className="prompt-box" value={userInput} onChange={onUserChangedText} />
         </div>
       </div>
       <div className="badge-container grow">
