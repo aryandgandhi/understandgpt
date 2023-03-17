@@ -1,8 +1,9 @@
 
-import { useState } from 'react';
+
 import Head from 'next/head';
 import Image from 'next/image';
 import buildspaceLogo from '../assets/buildspace-logo.png';
+import { useState } from 'react';
 
 const Home = () => {
   const [userInput, setUserInput] = useState('')
@@ -25,7 +26,7 @@ const Home = () => {
           </div>
         </div>
         <div className="prompt-container">
-          <textarea placeholder="start typing here" className="prompt-box" value={userInput} onChange={onUserChangedText} />
+          <textarea placeholder="start typing here" className="prompt-box" value={userInput} onChange={onUserChangedText} />;
         </div>
       </div>
       <div className="badge-container grow">
